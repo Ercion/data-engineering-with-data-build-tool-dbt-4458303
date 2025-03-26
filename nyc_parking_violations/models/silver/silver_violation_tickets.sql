@@ -4,9 +4,9 @@ SELECT
     violations.violation_code,
     violations.is_manhattan_96th_st_below,
     violations.issuing_agency,
-    violations.street_code1,
-    violations.street_code2,
-    violations.street_code3,
+    --violations.street_code1,
+    --violations.street_code2,
+    --violations.street_code3,
     violations.violation_location,
     violations.violation_precinct,
     violations.issuer_precinct,
@@ -15,10 +15,10 @@ SELECT
     violations.issuer_squad,
     violations.violation_time,
     violations.violation_county,
-    violations.street_name,
+    --violations.street_name,
     violations.violation_legal_code,
-    violations.violation_post_code,
-    violations.violation_description,
+    --violations.violation_post_code,
+    --violations.violation_description,
     codes.fee_usd
 FROM
     {{ref('silver_parking_violations')}} AS violations

@@ -1,6 +1,6 @@
 SELECT
     summons_number,
-    plate_id,
+    --plate_id,
     registration_state,
     plate_type,
     vehicle_body_type,
