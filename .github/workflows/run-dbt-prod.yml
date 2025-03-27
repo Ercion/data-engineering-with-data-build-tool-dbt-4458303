@@ -2,7 +2,7 @@ name: run_dbt_prod
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main","try" ]
   pull_request:
     branches: [ "main" ]
   # schedule:
